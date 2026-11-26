@@ -1,0 +1,2 @@
+# PORTAFOLIO-SAMIR
+actividad individual
