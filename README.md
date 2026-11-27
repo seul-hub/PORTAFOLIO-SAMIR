@@ -17,6 +17,8 @@ index.html               Estructura y contenido de la página
 style.css                Estilos (colores, tipografía y adaptación a celulares)
 script.js                Año del pie de página y menú que marca la sección activa
 foto.jpg                 Foto de perfil
+sabores-gerente.jpg      Foto de trabajo de un proyecto
+kiosco.jpg               Foto de trabajo de un proyecto
 CV_Samir_Schenfeld.pdf   CV para descargar
 ```
 
