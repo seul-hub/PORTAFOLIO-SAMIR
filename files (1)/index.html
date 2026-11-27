@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Samir Schenfeld – Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap" id="top">
+  <header class="top">
+    <a class="brand" href="#top" aria-label="Samir Schenfeld, ir al inicio"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M6 14V4l7 5q3-.6 6 0l7-5v10q0 12-10 12T6 14z"/><circle cx="12" cy="15" r="1.3" fill="currentColor" stroke="none"/><circle cx="20" cy="15" r="1.3" fill="currentColor" stroke="none"/><path d="M14.8 18.4h2.4L16 20z" fill="currentColor"/><path d="M3.5 17.5l5 1M3.5 21l5-1M28.5 17.5l-5 1M28.5 21l-5-1" stroke-width="1.4"/></svg><strong>Samir Schenfeld</strong></a>
+    <nav aria-label="Secciones"><a href="#proyectos">Proyectos</a><a href="#experiencia">Experiencia</a><a href="#formacion">Formación</a><a href="#contacto">Contacto</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <h1>Samir Schenfeld</h1>
+        <p class="lead">Estudiante de Programación. Hago aplicaciones de escritorio con C# y SQL Server, y sitios web con Django.</p>
+        <div class="btns">
+          <a class="btn main" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="mailto:samirschenfeld69@gmail.com">Escribime</a>
+          <a class="btn" href="CV_Samir_Schenfeld.pdf" download>Descargar CV</a>
+        </div>
+      </div>
+      <img class="foto" alt="Foto de Samir Schenfeld" src="foto.jpg">
+    </div>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <article class="item">
+        <div class="when">Proyecto académico<br>Escuela Técnica N.º 7</div>
+        <div>
+          <h3>Sistema de gestión de compras, ventas y stock</h3>
+          <p>Aplicación de escritorio para registrar compras y ventas y controlar el stock. Está separada en capas (presentación, lógica, datos y entidades) y guarda todo en una base de datos SQL Server.</p>
+          <ul class="tags"><li>C#</li><li>Windows Forms</li><li>SQL Server</li><li>Arquitectura en N capas</li></ul>
+        </div>
+      </article>
+      <article class="item">
+        <div class="when">Proyecto grupal<br>Equipo de 3 personas</div>
+        <div>
+          <h3>E-Commerce Kiosco Escolar</h3>
+          <p>Plataforma web para organizar productos, ventas y stock de kioscos escolares. Además del desarrollo, preparamos el análisis de mercado, la estrategia de marketing y la presentación del proyecto.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Django</li><li>SQLite</li></ul>
+          <figure class="shot"><img src="kiosco.jpg" alt="Captura del catálogo de bebidas del e-commerce Kiosco Escolar" loading="lazy"><figcaption>Catálogo de bebidas del Kiosco Escolar, con menú de categorías y carrito.</figcaption></figure>
+        </div>
+      </article>
+      <article class="item">
+        <div class="when">Proyecto grupal<br>Trabajo con Git y ramas</div>
+        <div>
+          <h3>E-commerce Sabores Express</h3>
+          <p>Tienda web para una cadena de comida, con el diseño y el isologo de la marca. Tiene catálogo por categorías, carrito que se actualiza al instante, login con roles de empleados, administración de productos con cálculo del precio de venta y reportes de ventas.</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML, CSS y JavaScript</li><li>Git</li></ul>
+          <figure class="shot"><img src="sabores-gerente.jpg" alt="Captura del panel del gerente de Sabores Express con ventas y reportes" loading="lazy"><figcaption>Panel del gerente de Sabores Express: ventas del día, semanal y del mes, gráfico diario y reportes en PDF.</figcaption></figure>
+        </div>
+      </article>
+      <article class="item">
+        <div class="when">Proyecto grupal<br>Escuela Técnica N.º 7</div>
+        <div>
+          <h3>Sistema de gestión de usuarios</h3>
+          <p>Aplicación de escritorio para administrar usuarios con permisos por rol. Incluye inicio de sesión con contraseñas cifradas (SHA256), contraseña inicial aleatoria, preguntas de seguridad y una arquitectura de varias capas.</p>
+          <ul class="tags"><li>C#</li><li>Windows Forms</li><li>SQL Server</li><li>Arquitectura en N capas</li><li>Scrum</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <article class="item">
+        <div class="when">Pasantía de 1 mes<br>Municipio de Lomas de Zamora</div>
+        <div>
+          <h3>Prácticas profesionales en la Subsecretaría de Planificación y Ordenamiento del Territorio</h3>
+          <p>Analicé cómo se hacían los relevamientos de viviendas en barrios populares, que se completaban en papel. Propuse una aplicación para cargar los datos directamente, que funcione sin conexión, sincronice cuando hay internet y se integre al sistema del Municipio.</p>
+          <ul class="tags"><li>Análisis de requerimientos</li><li>Propuesta de solución</li><li>Trabajo con un equipo del Municipio</li></ul>
+        </div>
+      </article>
+      <article class="item">
+        <div class="when">Desde los 7 años<br>Hasta hoy</div>
+        <div>
+          <h3>Atención al público y ventas en emprendimientos familiares</h3>
+          <p>Kiosco, carnicería y fiambrería, y un emprendimiento gastronómico para ferias. Atiendo clientes, vendo productos y organizo la mercadería.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación y conocimientos</h2>
+      <div class="cols">
+        <div><h3>Estudios</h3><ul>
+          <li><b>Escuela Técnica N.º 7 Manuel Sadosky</b><br>Programación, 2019 a 2026 (en finalización)</li>
+          <li><b>UNDAV, Ingeniería Informática</b><br>Ingreso previsto en 2027</li></ul></div>
+        <div><h3>Técnicos</h3><ul>
+          <li>C# y lógica de programación</li><li>Windows Forms</li><li>SQL Server</li><li>HTML, CSS y JavaScript</li><li>Django y SQLite</li></ul></div>
+        <div><h3>Personales</h3><ul>
+          <li>Trabajo en equipo</li><li>Atención al cliente</li><li>Adaptación a distintas tareas</li><li>Inglés: nivel A1</li></ul></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <h2>Contacto</h2>
+    <p>Busco mi primera oportunidad en tecnología. Escribime:</p>
+    <a class="mail" href="mailto:samirschenfeld69@gmail.com">samirschenfeld69@gmail.com</a>
+    <p class="links"><a href="https://www.linkedin.com/in/samir-schenfeld-358672385/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/seul-hub/" target="_blank" rel="noopener">GitHub</a><a href="CV_Samir_Schenfeld.pdf" download>Descargar CV</a></p>
+    <p class="small">© <span id="year"></span> Samir Schenfeld</p>
+    <p style="color:var(--muted);font-size:.9rem">Lanús y alrededores, Buenos Aires</p>
+  </footer>
+</div>
+
+<button class="totop" id="totop" type="button" aria-label="Volver arriba"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15l7-7 7 7"/></svg></button>
+<script src="script.js"></script>
+</body>
+</html>
